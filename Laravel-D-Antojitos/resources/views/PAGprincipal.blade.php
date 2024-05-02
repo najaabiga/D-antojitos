@@ -1,76 +1,94 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>D'antojitos Gourmet Decora</title>
-   
+    <title>Coffee Website</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+    <style>
+        /* Estilos para el footer */
+        footer {
+            background-color: rgb(250, 247, 247);
+            color: rgb(15, 14, 14);
+            text-align: center;
+            padding: 20px;
+        }
+        /* Estilos para los iconos de redes sociales */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .social-icons a {
+            color: rgb(15, 15, 15);
+            font-size: 20px;
+        }
+        /* Estilos para el texto de derechos de autor */
+        .copyright {
+            font-size: 12px;
+        }
+        /* Estilos para el enlace del chat */
+        .chat-link {
+            color: rgb(14, 14, 14);
+            font-size: 14px;
+        }
+    </style>
+</head>
+
 <body>
-<style>
-    .vertical-menu {
-        width: 200px; /* Establece un ancho si lo deseas */
-    }
-    .vertical-menu a {
-        background-color: #eee; /* Color de fondo gris */
-        color: black; /* Color de texto negro */
-        display: block; /* Hace que los enlaces aparezcan uno debajo del otro */
-        padding: 12px; /* Agrega un poco de espacio */
-    }
+    
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-coffee"></i> Coffee Shop</a>
 
-    /* Icono de menú */
-    .hamb {
-        cursor: pointer;
-        float: right;
-        padding: 40px 20px;
-    }
-    /* Estilo de la etiqueta */
-    .hamb-line {
-        background: var(--white);
-        display: block;
-        height: 2px;
-        position: relative;
-        width: 24px;
-    }
-    /* Estilo del span */
-    .hamb-line::before,
-    .hamb-line::after {
-        background: var(--white);
-        content: '';
-        display: block;
-        height: 100%;
-        position: absolute;
-        transition: all 0.2s ease-out;
-        width: 100%;
-    }
-    .hamb-line::before {
-        top: 5px;
-    }
-    .hamb-line::after {
-        top: -5px;
-    }
-    /* Menú lateral (oculto por defecto) */
-    .side-menu {
-        display: none;
-    }
-  </style>
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="#">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#contact">contact</a>
+        </nav>
 
-<ul class="nav justify-content-end">
-  <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="#">Link</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-  </li>
-</ul>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
 
+    </header>
+        <!--  header -->
 
+        <!-- Home -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Discover the <br> taste of real <br> coffee </h3>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+
+    </section>
+
+        <!-- home -->
+
+        <!-- About us -->
+
+         <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="copyright">© 2035 Creado por D'antojitosGourmet decora.com</p>
+        <p class="chat-link"><a href="#">Chat en línea</a></p>
+    </footer>
+    
+    <script src="js/script.js"></script>
 </body>
 </html>
