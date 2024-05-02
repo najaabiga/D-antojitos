@@ -2,7 +2,7 @@
 <html>
 <meta name="viewport" content="width=device-width, inital scale=1.0">
     <head>
-        <link href="css.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
         <title>Formulario de Pago</title>
     </head>
     <center>
