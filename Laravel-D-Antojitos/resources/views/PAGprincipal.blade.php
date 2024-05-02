@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
     <!-- Custom CSS Link -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="resources/css/paginaPrinci.css">
 
     <style>
         /* Estilos para el footer */
@@ -43,7 +43,7 @@
 </head>
 
 <body>
-<<<<<<< HEAD
+
     
     <header class="header">
         <a href="#" class="logo"> <i class="fas fa-coffee"></i> Coffee Shop</a>
