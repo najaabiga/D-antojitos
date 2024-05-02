@@ -1,8 +1,10 @@
 <html>
+<link href="style.css" rel="stylesheet">
 <body>
 <h4>Lista de los Pagos</h4>
 <table border="2">
 <tr>
+<th>Id del pago</th>
 <th>Tipo del pago</th>
 <th>Descripcion</th>
 </tr>

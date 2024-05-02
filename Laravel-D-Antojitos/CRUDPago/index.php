@@ -6,14 +6,16 @@
         <title>Formulario de Pago</title>
     </head>
     <center>
-    <h3>Formulario de Pagos</h3>
-
+    <h2>Formulario de Pagos</h2>
+    </center>
     <body>
+    <div class="form-container">
+    <center>
     <form action="insertar.php" method="POST">
-    Tipo del Pago:<br><input type="text" name="tipo_pago" required><br>
-    Descripcion del Pago:<br><input type="text" name="descripcion_pago"><br>
+    <h3>Tipo del Pago:</h3><br><input type="text" name="tipo_pago" required><br>
+    <h3>Descripcion del Pago:</h3><br><input type="text" name="descripcion_pago"><br>
     <br>
-    <button type="sumbit" name="enviar">Enviar</button>
+    <button type="submit" name="enviar">Enviar</button>
 
     </form>
 
@@ -22,7 +24,7 @@
 <form action="consulta.php" method="post">
 
 <input type="text" name="id_pago" placeholder="Pago a buscar"><br><br>
-<button type="sumbit" name="buscar">Buscar</button>
+<button type="submit" name="buscar">Buscar</button>
 </form>
 <br>
 
@@ -32,10 +34,11 @@
     <button type="submit" name="actualizar">Editar</button>
 </form>
 <br>
-
+    </center>
 <h4>Lista de los Pagos</h4>
 <table border="2">
 <tr>
+<th>Id del pago</th>
 <th>Tipo del pago</th>
 <th>Descripcion</th>
 </tr>
@@ -57,6 +60,6 @@ if($total!=0){
 ?>
 
 </table>
-    </center>
+</div>
 </body>
 </html>
