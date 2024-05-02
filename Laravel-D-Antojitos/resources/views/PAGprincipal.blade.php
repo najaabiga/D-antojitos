@@ -1,5 +1,6 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,7 +12,6 @@
     <!-- Custom CSS Link -->
     <link rel="stylesheet" href="css/style.css">
 
-</head>
     <style>
         /* Estilos para el footer */
         footer {
@@ -43,6 +43,7 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     
     <header class="header">
         <a href="#" class="logo"> <i class="fas fa-coffee"></i> Coffee Shop</a>
@@ -90,5 +91,6 @@
     </footer>
     
     <script src="js/script.js"></script>
+
 </body>
 </html>
