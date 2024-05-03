@@ -11,6 +11,7 @@
     
     <!-- Custom CSS Link -->
     <link rel="stylesheet" href="resources/css/paginaPrinci.css">
+    <link rel="stylesheet" href="resources/js/script.js">
 
     <style>
         /* Estilos para el footer */
