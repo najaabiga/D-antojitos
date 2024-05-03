@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
 :root {
 	--primary-color: #c7a17a;
 	--background-color: #f9f5f0;
@@ -37,6 +38,7 @@ html {
 .container-hero {
 	background-color: var(--background-color);
 }
+
 
 .hero {
 	display: flex;
@@ -183,6 +185,7 @@ html {
 	appearance: none;
 }
 
+/*
 .search-form .btn-search {
 	border: none;
 	background-color: var(--primary-color);
@@ -197,6 +200,7 @@ html {
 	font-size: 2rem;
 	color: #fff;
 }
+
 
 /* ********************************** */
 /*               BANNER               */
@@ -239,6 +243,7 @@ html {
 	text-transform: uppercase;
 	border-radius: 3rem;
 }
+*/
 
 /* ********************************** */
 /*            MAIN CONTENT            */

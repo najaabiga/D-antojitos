@@ -12,8 +12,24 @@
 	</head>
 	<head>
 		<style>
+
+.btn {
+    cursor: pointer;
+    border: 1px solid white;
+    background-color: transparent; /* Cambio al color transparente antes de pasar el cursor */
+    height: 50px;
+    width: 200px;
+    color: white; /* Cambio del color de las letras a blanco */
+    font-size: 1.5em;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #001f3f; /* Cambio al color azul marino al pasar el cursor sobre el botón */
+}
 		footer {
-            background-color: #c7a17a;
+            background-color: #f9f5f0;
             color: rgb(15, 14, 14);
             text-align: center;
             padding: 20px;
@@ -53,7 +69,7 @@
 
 					<div class="container-logo">
 						<i class="fa-solid fa-mug-hot"></i>
-						<h1 class="logo"><a href="/">Baristas</a></h1>
+						<h1 class="logo"><a href="/">D'antojitos Goumet Decora</a></h1>
 					</div>
 
 					<div class="container-user">
@@ -93,7 +109,7 @@
 			<div class="content-banner">
 				<p>Café Delicioso</p>
 				<h2>100% Natural <br />Café Fresco</h2>
-				<a href="#">Comprar ahora</a>
+				<a href="#" class="btn">Ver servicios</a>
 			</div>
 		</section>
 
