@@ -1,4 +1,4 @@
-
+<!--
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,10 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coffee Website</title>
-    <!-- font awesome cdn link  -->
+ 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     
-    <!-- Custom CSS Link -->
+  
     <link rel="stylesheet" href="resources/css/paginaPrinci.css">
     <link rel="stylesheet" href="resources/js/script.js">
 
@@ -62,9 +62,7 @@
         </div>
 
     </header>
-        <!--  header -->
-
-        <!-- Home -->
+      
 
     <section class="home" id="home">
 
@@ -75,11 +73,6 @@
 
     </section>
 
-        <!-- home -->
-
-        <!-- About us -->
-
-         <!-- Footer -->
     <footer>
         <div class="social-icons">
             <a href="#"><i class="fab fa-pinterest"></i></a>
@@ -95,3 +88,4 @@
 
 </body>
 </html>
+    -->

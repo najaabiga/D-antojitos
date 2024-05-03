@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&amp;display=swap');
+/*@import url('http://fonts.googleapis.com/css?family=Poppins:300,400,400i,500,600,700&amp;display=swap');
 
 :root{
     --main-color:#2f2721;
@@ -65,7 +65,7 @@ section{
     color: var(--primary-color);
 }
 
-/* header */
+
 
 .header{
     position: sticky;
@@ -131,9 +131,9 @@ section{
     display: none;
 }
 
-/* end */
 
-/* home */
+
+
 
 .home{
     min-height: 100vh;
@@ -155,9 +155,7 @@ section{
     margin-bottom: 20px;
 }
 
-/* end */
 
-/* about us */
 
 .about{
     padding-top:50px;
@@ -206,9 +204,6 @@ section{
     background: var(--primary-color);
 }
 
-/* end */
-
-/* menu */
 
 .menu .box-container{
     display: grid;
@@ -246,10 +241,6 @@ section{
 .menu .box-container .box:hover > *{
     color: var(--black);
 }
-
-/* end */
-
-/* contact */
 
 .contact .row{
     display: -webkit-box;
@@ -313,9 +304,6 @@ section{
     background: none;
 }
 
-/* end */
-
-/* Footer */
 
 .footer{
     background: var(--main-color);
@@ -369,7 +357,7 @@ section{
 }
 
 
-/* media queries */
+
 
 @media (max-width:991px){
 
@@ -447,3 +435,4 @@ section{
     }
 
 }
+*/
