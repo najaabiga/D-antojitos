@@ -1,62 +1,97 @@
-@extends 'layout/plantilla'
 
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Página Web</title>
-    <!-- Agrega aquí tus enlaces a hojas de estilo (CSS) y otros recursos -->
+    <title>Coffee Website</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- Custom CSS Link -->
+    <link rel="stylesheet" href="resources/css/paginaPrinci.css">
+    <link rel="stylesheet" href="resources/js/script.js">
+
     <style>
-        /* Estilos CSS personalizados */
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 20px;
-        }
-        h1 {
-            margin: 0;
-            font-size: 24px;
-        }
-        main {
-            padding: 20px;
-        }
+        /* Estilos para el footer */
         footer {
-            background-color: #333;
-            color: #fff;
+            background-color: rgb(250, 247, 247);
+            color: rgb(15, 14, 14);
             text-align: center;
-            padding: 10px;
+            padding: 20px;
+        }
+        /* Estilos para los iconos de redes sociales */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .social-icons a {
+            color: rgb(15, 15, 15);
+            font-size: 20px;
+        }
+        /* Estilos para el texto de derechos de autor */
+        .copyright {
+            font-size: 12px;
+        }
+        /* Estilos para el enlace del chat */
+        .chat-link {
+            color: rgb(14, 14, 14);
+            font-size: 14px;
         }
     </style>
 </head>
+
 <body>
-    <!-- Encabezado -->
-    <header>
-        <h1>Mi Página Web</h1>
-        <!-- Agrega más elementos de encabezado según tus necesidades -->
+
+    
+    <header class="header">
+        <a href="#" class="logo"> <i class="fas fa-coffee"></i> Coffee Shop</a>
+
+        <nav class="navbar">
+            <div id="close-navbar" class="fas fa-times"></div>
+            <a href="#">home</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
     </header>
+        <!--  header -->
 
-    <!-- Contenido principal -->
-    <main>
-        <!-- Aquí puedes agregar tus secciones, imágenes, texto, etc. -->
-        <section>
-            <h2>¡Bienvenidos!</h2>
-            <p>Esta es mi página web.</p>
-        </section>
-        <!-- Agrega más secciones según tus necesidades -->
-    </main>
+        <!-- Home -->
 
-    <!-- Pie de página -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Discover the <br> taste of real <br> coffee </h3>
+            <a href="#" class="btn">Order Now</a>
+        </div>
+
+    </section>
+
+        <!-- home -->
+
+        <!-- About us -->
+
+         <!-- Footer -->
     <footer>
-        <p>© 2024 Mi Página Web</p>
-        <!-- Agrega más elementos de pie de página según tus necesidades -->
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-pinterest"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="copyright">© 2035 Creado por D'antojitosGourmet decora.com</p>
+        <p class="chat-link"><a href="#">Chat en línea</a></p>
     </footer>
+    
+    <script src="js/script.js"></script>
+
 </body>
 </html>
