@@ -185,26 +185,6 @@ html {
 	appearance: none;
 }
 
-/*
-.search-form .btn-search {
-	border: none;
-	background-color: var(--primary-color);
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	padding: 1rem;
-}
-
-.btn-search i {
-	font-size: 2rem;
-	color: #fff;
-}
-
-
-/* ********************************** */
-/*               BANNER               */
-/* ********************************** */
 .banner {
 	background-image: linear-gradient(100deg, #000000, #00000020),
 		url('img/banner.jpg');
