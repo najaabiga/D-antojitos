@@ -242,7 +242,7 @@ body {
 
             <div class="input_group">
                 <div class="input_box">
-                    <input type="tel" class="name" placeholder="Numero de Cuenta 1111-2222-3333-4444" checked>
+                    <input type="tel" class="name" placeholder="Numero de Cuenta 1111-2222-3333-4444 BANCO SANTA CRUZ" checked>
                     <i class="fa fa-credit-card icon"></i>
                 </div>
             </div>
