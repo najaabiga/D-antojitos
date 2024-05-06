@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
 
-:root {
+/*:root {
 	--primary-color: #c7a17a;
 	--background-color: #f9f5f0;
 	--dark-color: #151515;
-}
+}*/
 
 html {
 	font-size: 62.5%;
@@ -123,6 +123,7 @@ html {
 
 .menu {
 	display: flex;
+	justify-content: center;
 	gap: 2rem;
 }
 
@@ -147,10 +148,11 @@ html {
 	position: absolute;
 	bottom: -3px;
 	left: 50%;
-	transform: translate(-50%, 50%);
+	transform: translateX(-50%);
 	opacity: 0;
 	transition: all 0.3s ease;
 }
+
 
 .menu a:hover::after {
 	opacity: 1;
