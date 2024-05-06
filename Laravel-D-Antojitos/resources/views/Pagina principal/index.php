@@ -14,6 +14,7 @@
 		<style>
 
 .btn {
+	
     cursor: pointer;
     border: 1px solid white;
     background-color: transparent; 
@@ -21,7 +22,7 @@
     width: 200px;
     color: white; 
     font-size: 1.5em;
-    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.6);
     transition: background-color 0.3s ease;
 }
 
@@ -58,10 +59,9 @@
 	<body>
 		
        <header>
-					<div class="container-logo">
-						<i class="fa-solid fa-mug-hot"></i>
-						<h1 class="logo"><a href="/">D'antojitos Goumet Decora</a></h1>
-					</div>
+					
+	<center><h1 class="">D'antojitos Goumet Decora</h1>
+	</div></center>
 
 					<div class="container-user">
 						<i class="fa-solid fa-user"></i>
@@ -96,13 +96,14 @@
 			</div>
 		</header>
 
+		<center>
 		<section class="banner">
 			<div class="content-banner">
 				<p>Café Delicioso</p>
 				<h2>100% Natural <br />Café Fresco</h2>
 				<a href="#" class="btn">Ver servicios</a>
 			</div>
-		</section>
+		</section></center>
 
 		<script src="js/script.js"></script><br>
 
