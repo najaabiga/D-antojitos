@@ -25,7 +25,7 @@
 	padding: 1rem 3rem;
 	text-transform: uppercase;
 	border: 1px solid #ffffff;
-}
+}gi
 	
 .btn:hover {
     background-color: #001f3f;
@@ -37,6 +37,7 @@
             padding: 20px;
         }
  
+
         .social-icons {
             display: flex;
             justify-content: center;
