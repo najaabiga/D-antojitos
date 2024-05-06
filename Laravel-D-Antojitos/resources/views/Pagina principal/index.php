@@ -31,7 +31,7 @@
     background-color: #001f3f;
 }
 		footer {
-            background-color: #f9f5f0;
+            
             color: rgb(15, 14, 14);
             text-align: center;
             padding: 20px;
