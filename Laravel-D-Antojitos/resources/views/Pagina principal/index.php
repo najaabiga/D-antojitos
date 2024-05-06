@@ -13,19 +13,20 @@
 	<head>
 		<style>
 
-.btn {
-	
-    cursor: pointer;
-    border: 1px solid white;
-    background-color: transparent; 
-    height: 50px;
-    width: 200px;
-    color: white; 
-    font-size: 1.5em;
-    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.6);
-    transition: background-color 0.3s ease;
+.content-banner a {
+	position: left;
+	margin: 30px;
+	margin-bottom: 18rem;
+	text-decoration: none;
+	text-align: center;
+	color: #ffffff;
+	background-color: transparent ;
+	display: inline-block;
+	padding: 1rem 3rem;
+	text-transform: uppercase;
+	border: 1px solid #ffffff;
 }
-
+	
 .btn:hover {
     background-color: #001f3f;
 }

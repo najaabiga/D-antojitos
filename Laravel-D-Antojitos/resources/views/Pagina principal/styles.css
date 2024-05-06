@@ -210,23 +210,25 @@ html {
 }
 
 .content-banner h2 {
-	color: #fff;
+	color: #f12f2f;
 	font-size: 3.5rem;
 	font-weight: 500;
 	line-height: 1.2;
 }
 
 .content-banner a {
-	margin: 48rem;
-	margin-top: 10rem;
+	position: left;
+	margin: 30px;
+	margin-bottom: 18rem;
 	text-decoration: none;
 	text-align: center;
-	color: #fff;
+	color: #ffffff;
 	background-color: transparent ;
 	display: inline-block;
 	padding: 1rem 3rem;
 	text-transform: uppercase;
 	border: 1px solid #ffffff;
+	
 	
 }
 */
