@@ -7,7 +7,7 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-		<title>Baristas</title>
+		<title>D'antojitos</title>
 		<link rel="stylesheet" href="styles.css">
 	</head>
 	<head>
@@ -56,17 +56,8 @@
     </style>
 	</head>
 	<body>
-		<header>
-			<div class="container-hero">
-				<div class="container hero">
-					<div class="customer-support">
-						<i class="fa-solid fa-headset"></i>
-						<div class="content-customer-support">
-							<span class="text">Soporte al cliente</span>
-							<span class="number">123-456-7890</span>
-						</div>
-					</div>
-
+		
+       <header>
 					<div class="container-logo">
 						<i class="fa-solid fa-mug-hot"></i>
 						<h1 class="logo"><a href="/">D'antojitos Goumet Decora</a></h1>
@@ -134,150 +125,14 @@
 				</div>
 			</section>
 
-			<section class="container top-products">
-				<h1 class="heading-1">Mejores Productos</h1>
+			
 
-				<div class="container-options">
-					<span class="active">Destacados</span>
-					<span>Más recientes</span>
-					<span>Mejores Vendidos</span>
-				</div>
-
-				<div class="container-products">
-					
-					<div class="card-product">
-						<div class="container-img">
-							<img src="img/cafe-irish.jpg" alt="Cafe Irish" />
-							<span class="discount">-13%</span>
-							<div class="button-group">
-								<span>
-									<i class="fa-regular fa-eye"></i>
-								</span>
-								<span>
-									<i class="fa-regular fa-heart"></i>
-								</span>
-								<span>
-									<i class="fa-solid fa-code-compare"></i>
-								</span>
-							</div>
-						</div>
-						<div class="content-card-product">
-							<div class="stars">
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-regular fa-star"></i>
-							</div>
-							<h3>Cafe Irish</h3>
-							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">$4.60 <span>$5.30</span></p>
-						</div>
-					</div>
-					
-					<div class="card-product">
-						<div class="container-img">
-							<img
-								src="img/cafe-ingles.jpg"
-								alt="Cafe incafe-ingles.jpg"
-							/>
-							<span class="discount">-22%</span>
-							<div class="button-group">
-								<span>
-									<i class="fa-regular fa-eye"></i>
-								</span>
-								<span>
-									<i class="fa-regular fa-heart"></i>
-								</span>
-								<span>
-									<i class="fa-solid fa-code-compare"></i>
-								</span>
-							</div>
-						</div>
-						<div class="content-card-product">
-							<div class="stars">
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-regular fa-star"></i>
-								<i class="fa-regular fa-star"></i>
-							</div>
-							<h3>Cafe Inglés</h3>
-							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">$5.70 <span>$7.30</span></p>
-						</div>
-					</div>
-					
-					<div class="card-product">
-						<div class="container-img">
-							<img
-								src="img/cafe-australiano.jpg"
-								alt="Cafe Australiano"
-							/>
-							<div class="button-group">
-								<span>
-									<i class="fa-regular fa-eye"></i>
-								</span>
-								<span>
-									<i class="fa-regular fa-heart"></i>
-								</span>
-								<span>
-									<i class="fa-solid fa-code-compare"></i>
-								</span>
-							</div>
-						</div>
-						<div class="content-card-product">
-							<div class="stars">
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-							</div>
-							<h3>Cafe Australiano</h3>
-							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">$320</p>
-						</div>
-					</div>
-					
-					<div class="card-product">
-						<div class="container-img">
-							<img src="img/cafe-helado.jpg" alt="Cafe Helado" />
-							<div class="button-group">
-								<span>
-									<i class="fa-regular fa-eye"></i>
-								</span>
-								<span>
-									<i class="fa-regular fa-heart"></i>
-								</span>
-								<span>
-									<i class="fa-solid fa-code-compare"></i>
-								</span>
-							</div>
-						</div>
-						<div class="content-card-product">
-							<div class="stars">
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-regular fa-star"></i>
-							</div>
-							<h3>Cafe Helado</h3>
-							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">$5.60</p>
-						</div>
-					</div>
-				</div>
-			</section>
+				
+									
+						
+							
+			
+			
 
 			<section class="gallery">
 				<img
@@ -303,142 +158,9 @@
 				/>
 			</section>
 
-			<section class="container specials">
-				<h1 class="heading-1">Especiales</h1>
-
-				<div class="container-products">
-					
-					<div class="card-product">
-						<div class="container-img">
-							<img src="img/cafe-irish.jpg" alt="Cafe Irish" />
-							<span class="discount">-13%</span>
-							<div class="button-group">
-								<span>
-									<i class="fa-regular fa-eye"></i>
-								</span>
-								<span>
-									<i class="fa-regular fa-heart"></i>
-								</span>
-								<span>
-									<i class="fa-solid fa-code-compare"></i>
-								</span>
-							</div>
-						</div>
-						<div class="content-card-product">
-							<div class="stars">
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-regular fa-star"></i>
-							</div>
-							<h3>Cafe Irish</h3>
-							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">$4.60 <span>$5.30</span></p>
-						</div>
-					</div>
 			
-					<div class="card-product">
-						<div class="container-img">
-							<img
-								src="img/cafe-ingles.jpg"
-								alt="Cafe incafe-ingles.jpg"
-							/>
-							<span class="discount">-22%</span>
-							<div class="button-group">
-								<span>
-									<i class="fa-regular fa-eye"></i>
-								</span>
-								<span>
-									<i class="fa-regular fa-heart"></i>
-								</span>
-								<span>
-									<i class="fa-solid fa-code-compare"></i>
-								</span>
-							</div>
-						</div>
-						<div class="content-card-product">
-							<div class="stars">
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-regular fa-star"></i>
-								<i class="fa-regular fa-star"></i>
-							</div>
-							<h3>Cafe Inglés</h3>
-							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">$5.70 <span>$7.30</span></p>
-						</div>
-					</div>
-			
-					<div class="card-product">
-						<div class="container-img">
-							<img src="img/cafe-viena.jpg" alt="Cafe Viena" />
-							<span class="discount">-30%</span>
-							<div class="button-group">
-								<span>
-									<i class="fa-regular fa-eye"></i>
-								</span>
-								<span>
-									<i class="fa-regular fa-heart"></i>
-								</span>
-								<span>
-									<i class="fa-solid fa-code-compare"></i>
-								</span>
-							</div>
-						</div>
-						<div class="content-card-product">
-							<div class="stars">
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-							</div>
-							<h3>Cafe Viena</h3>
-							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">$3.85 <span>$5.50</span></p>
-						</div>
-					</div>
 				
-					<div class="card-product">
-						<div class="container-img">
-							<img src="img/cafe-liqueurs.jpg" alt="Cafe Liqueurs" />
-							<div class="button-group">
-								<span>
-									<i class="fa-regular fa-eye"></i>
-								</span>
-								<span>
-									<i class="fa-regular fa-heart"></i>
-								</span>
-								<span>
-									<i class="fa-solid fa-code-compare"></i>
-								</span>
-							</div>
-						</div>
-						<div class="content-card-product">
-							<div class="stars">
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-solid fa-star"></i>
-								<i class="fa-regular fa-star"></i>
-							</div>
-							<h3>Cafe Liqueurs</h3>
-							<span class="add-cart">
-								<i class="fa-solid fa-basket-shopping"></i>
-							</span>
-							<p class="price">$5.60</p>
-						</div>
-					</div>
-				</div>
-			</section>
+					
 		
 		<footer>
 			<div class="social-icons">
@@ -447,9 +169,10 @@
 				<a href="#"><i class="fab fa-twitter"></i></a>
 				<a href="#"><i class="fab fa-instagram"></i></a>
 			</div>
+			<center>
 			<p class="copyright">© 2035 Creado por D'antojitosGourmet decora.com</p>
 			<p class="chat-link"><a href="#">Chat en línea</a></p>
-		</footer>
+		</footer></center>
 		<script
 			src="https://kit.fontawesome.com/81581fb069.js"
 			crossorigin="anonymous"
